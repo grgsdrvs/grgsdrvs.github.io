@@ -27,7 +27,7 @@ url: "https://grgsdrvs.github.io" # the base hostname & protocol for your site, 
 github_username: grgsdrvs
 linkedin_username: georgiosdrivas
 google_analytics: UA-152960467-1
-
+show_excerpts: true
 disqus:
     shortname: gd222dn
 
