@@ -26,6 +26,24 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://grgsdrvs.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  grgsdrvs
 
+collections:
+  authors:
+    output: true
+
+defaults:
+
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      comments: true
+      author: Georgios Drivas
+
+
+
+
+
 # Build settings
 theme: minima
 plugins:
