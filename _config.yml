@@ -24,7 +24,14 @@ description: >- # this means to ignore newlines until "baseurl:"
   Denna webbplats är skapad för kursen 1dv022 Klientbaserad webbprogrammering på LnU. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://grgsdrvs.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  grgsdrvs
+github_username: grgsdrvs
+linkedin_username: georgiosdrivas
+google_analytics: UA-152960467-1
+
+disqus:
+    shortname: gd222dn
+
+
 
 collections:
   authors:
@@ -39,6 +46,7 @@ defaults:
       layout: post
       comments: true
       author: Georgios Drivas
+      
 
 
 
