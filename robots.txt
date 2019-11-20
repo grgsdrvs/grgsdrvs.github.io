@@ -1,0 +1,19 @@
+User-agent: *
+Disallow: /_data/
+Disallow: /_includes/
+Disallow: /_layouts/
+Disallow: /_posts/
+Disallow: /_sass/
+Disallow: /.jekyll-cache/
+Disallow: /config.yml
+Disallow: /about.markdown
+Disallow: /blog.html
+Disallow: /Gemfile
+Disallow: /Gemfile.lock
+Disallow: /index.markdown
+Disallow: /vendor/
+
+Allow: /*.css$
+Allow: /*.js$
+
+Sitemap: http://www.exempel.se/sitemap.xml
