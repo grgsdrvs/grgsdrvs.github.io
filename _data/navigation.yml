@@ -1,0 +1,8 @@
+- name: Hem
+  link: /
+- name: Blogg
+  link: /
+- name: Om mig
+  link: /about
+- name: Länkar
+  link: /
