@@ -2,12 +2,12 @@
 title: "Examination 1"
 date:   2019-11-21 07:00:00 +0200
 categories: examination 1
-tags: 1dv022
+tags: [1dv022]
+excerpt_separator: <!--more-->
 og_description: Frågor att besvara i examinationsuppgift 1
 og_image: codes_story.jpg
 og_type: article
 ---
-## Frågor 
 
 [CoursePress](http://coursepress.lnu.se/kurs/klientbaserad-webbprogrammering/examination/exam-assignment-1/ "Länk till uppgiftsbeskrivning")
 
@@ -15,7 +15,7 @@ og_type: article
     * Jämför med vanlig CSS.
     * Vilka tekniker använde du?
     * Fördelar och nackdelar?   
-
+<!--more-->
 2. Vad tycker du om *static site generators* (SSG)?
     > "Investeringstiden" i början var högre än att komma igång med utveckling av en "vanlig" statisk webbplats, men när strukturen och förhållandet mellan delarna faller på plats gillar jag enkelheten med mallar och markdown.
     * Vilken typ av projekt är de lämpliga för?
