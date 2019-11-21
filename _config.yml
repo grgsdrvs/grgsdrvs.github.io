@@ -31,6 +31,8 @@ show_excerpts: false
 disqus:
     shortname: gd222dn
 
+
+
 collections:
   authors:
     output: true
@@ -38,11 +40,17 @@ collections:
 defaults:
   - scope:
       path: ""
+    values:
+      layout: default
+      locale: sv
+  - scope:
+      path: ""
       type: "posts"
     values:
       layout: post
       comments: true
       author: Georgios Drivas
+
       
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
