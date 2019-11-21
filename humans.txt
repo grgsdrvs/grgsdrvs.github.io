@@ -2,10 +2,10 @@
 	Student and developer: Georgios Drivas
 	Contact: gd222dn [at] student.lnu.se
 	Linkedin: georgiosdrivas
-	From: Nyköping, Sweden
+	From: Stockholm, Sweden
 
 /* SITE */
-Last update:2019/11/20
+Last update:2019/11/21
 Language: Swedish
-Doctype:HTML5
+Tools: html, css, js
 IDE: Visual Studio Code

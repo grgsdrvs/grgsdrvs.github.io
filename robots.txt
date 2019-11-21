@@ -12,6 +12,7 @@ Disallow: /Gemfile
 Disallow: /Gemfile.lock
 Disallow: /index.markdown
 Disallow: /vendor/
+Disallow: /old_posts/
 Allow: /*.css$
 Allow: /*.js$
 
