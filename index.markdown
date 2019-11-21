@@ -3,10 +3,10 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-og_title: Georgios Drivas
-og_description: En webbplats skapad i kursen i klientbaserad webbprogrammering (1dv022) på LnU.
-og_image: /assets/images/georgios_bil.jpg
-og_type: website
+title: gd222dn
+description: En webbplats skapad i kursen i klientbaserad webbprogrammering (1dv022) på LnU.
+image: /assets/images/georgios_bil.jpg
+type: website
 ---
 
 # Välkommen!

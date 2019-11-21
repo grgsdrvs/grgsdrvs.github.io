@@ -3,10 +3,9 @@ title: "Examination 1"
 date:   2019-11-21 07:00:00 +0200
 categories: examination 1
 tags: 1dv022
-og_title: Examinationsuppgift 1 - Frågor
-og_description: Frågor att besvara i examinationsuppgift 1
-og_image: /assets/images/codes_story.jpg
-og_type: article
+description: Frågor att besvara i examinationsuppgift 1
+image: codes_story.jpg
+type: article
 ---
 ## Frågor 
 
