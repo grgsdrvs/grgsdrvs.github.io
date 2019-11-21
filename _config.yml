@@ -27,7 +27,7 @@ url: "https://grgsdrvs.github.io" # the base hostname & protocol for your site, 
 github_username: grgsdrvs
 linkedin_username: georgiosdrivas
 google_analytics: UA-152960467-1
-show_excerpts: true
+show_excerpts: false
 disqus:
     shortname: gd222dn
 
@@ -52,15 +52,15 @@ defaults:
 minima:
   date_format: "%Y-%m-%d"
 
-
-
-
 # Build settings
 theme: minima
-skin: sunrise
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+# Don't process old posts
+exclude:
+  - old_posts/
 
 # Exclude from processing.
 # The following items will not be processed, by default.

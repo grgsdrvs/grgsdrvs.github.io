@@ -2,6 +2,10 @@
 layout: page
 title: Om mig
 permalink: /about/
+og_title: Georgios Drivas - Gitbook
+og_description: En webbplats skapad i kursen i klientbaserad webbprogrammering (1dv022) på LnU.
+og_image: /assets/images/georgios_bil.jpg
+og_type: website
 ---
 
 Jag är 29 år och kommer från Stockholm. Nuförtiden bor jag i Nyköping med min flickvän och arbetar på ett IT-företag i Stockholm. Tidigare har jag studerat på KTH och har en bakgrund inom byggnadskonstruktion. Design i olika former har varit ett av mina intressen långt tillbaka och jag ser fram emot att lära mig mer om utveckling och design av applikationer osv.
