@@ -44,10 +44,6 @@
     &:not(:last-child) {
       margin-right: 30px;
     }
-     
-     > a {
-      margin-left: 30px;
-    }
   }
 
   @include media-query($on-palm) {
