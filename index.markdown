@@ -4,9 +4,9 @@
 
 layout: home
 title: gd222dn
-description: En webbplats skapad i kursen i klientbaserad webbprogrammering (1dv022) på LnU.
-image: /assets/images/georgios_bil.jpg
-type: website
+og_description: En webbplats skapad i kursen i klientbaserad webbprogrammering (1dv022) på LnU.
+og_image: /assets/images/georgios_bil.jpg
+og_type: website
 ---
 
 # Välkommen!
