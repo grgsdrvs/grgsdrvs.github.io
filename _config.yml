@@ -31,14 +31,11 @@ show_excerpts: false
 disqus:
     shortname: gd222dn
 
-
-
 collections:
   authors:
     output: true
 
 defaults:
-
   - scope:
       path: ""
       type: "posts"
