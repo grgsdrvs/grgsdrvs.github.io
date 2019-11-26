@@ -203,6 +203,18 @@ pre {
 }
 
 /**
+* Body wrapper
+*/
+#body-wrapp {
+  max-width: $wrapp-width;
+  margin: 0 auto;
+
+  background-color: $wrapper-color;
+  box-shadow: 4px 4px 2px $box-shadows;
+
+}
+
+/**
  * Clearfix
  */
 %clearfix:after {
