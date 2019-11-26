@@ -7,6 +7,7 @@ excerpt_separator: <!--more-->
 og_description: Frågor att besvara i examinationsuppgift 1
 og_image: codes_story.jpg
 og_type: article
+background_header_img: ../assets/images/pattern_bg.jpg
 ---
 
 [CoursePress](http://coursepress.lnu.se/kurs/klientbaserad-webbprogrammering/examination/exam-assignment-1/ "Länk till uppgiftsbeskrivning")
@@ -14,10 +15,15 @@ og_type: article
 1. Vad tycker du om att förkompilera CSS?
     * Jämför med vanlig CSS.
     * Vilka tekniker använde du?
-    * Fördelar och nackdelar?   
-<!--more-->
+    * Fördelar och nackdelar?  
+
+    > För denna uppgift anväde jag **Sass** som preprocessor. Med utgångspunkt i **Minima** temat för Jekyll gjorde jag lite ändringar för att få till önskat resultat och utseende på webbplatsen. **Minima** är uppdelad på ett antal ´.sass´ som kombineras ihop till ett "stylesheet" och tekniker som används är bl.a. "nesting", "mixins" och variabler.
+
+    <!--more-->
+    > 
 2. Vad tycker du om *static site generators* (SSG)?
     > "Investeringstiden" i början var högre än att komma igång med utveckling av en "vanlig" statisk webbplats, men när strukturen och förhållandet mellan delarna faller på plats gillar jag enkelheten med mallar och markdown.
+    
     * Vilken typ av projekt är de lämpliga för?
     > SSG lämpar sig för projekt där innehållet på avdelningarna uppdateras frekvent. Detta eftersom strukturen för att hantera texter på webbplatsen är relativt enkel, mha. markdown, och ingen `html` behöver ändras för att lägga till nytt material.
     > SSG behövs ingen databas sättas upp för att hantera innehållet och därmed kan det vara enklare att hosta siten och underhålla den.

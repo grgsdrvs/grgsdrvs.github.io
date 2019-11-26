@@ -7,6 +7,10 @@ title: gd222dn
 og_description: En webbplats skapad i kursen i klientbaserad webbprogrammering (1dv022) på LnU.
 og_image: /assets/images/georgios_bil.jpg
 og_type: website
+article_header:
+  type: cover
+  image:
+    src: /assets/images/georgios_bil.jpg
 ---
 
 # Välkommen!
