@@ -1,6 +1,6 @@
-- name: Hem
-  link: /
-- name: Blogg
-  link: /blog.html
 - name: Om mig
   link: /about
+- name: Blogg
+  link: /blog.html
+- name: Hem
+  link: /

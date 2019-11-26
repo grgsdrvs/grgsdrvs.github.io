@@ -189,8 +189,8 @@ pre {
   max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
   margin-right: auto;
   margin-left: auto;
-  padding-right: $spacing-unit;
-  padding-left: $spacing-unit;
+  padding-right: calc(#{$spacing-unit} * 4);
+  padding-left: calc(#{$spacing-unit} * 4);
 
   @extend %clearfix;
 
@@ -206,9 +206,7 @@ pre {
 * Body wrapper
 */
 #body-wrapp {
-  max-width: $wrapp-width;
   margin: 0 auto;
-
   background-color: $wrapper-color;
   box-shadow: 4px 4px 2px $box-shadows;
 
