@@ -5,9 +5,8 @@ categories: examination 1
 tags: [1dv022]
 excerpt_separator: <!--more-->
 og_description: Frågor att besvara i examinationsuppgift 1
-og_image: codes_story.jpg
+og_image: /assets/images/codes_story.jpg
 og_type: article
-background_header_img: ../assets/images/pattern_bg.jpg
 ---
 
 [CoursePress](http://coursepress.lnu.se/kurs/klientbaserad-webbprogrammering/examination/exam-assignment-1/ "Länk till uppgiftsbeskrivning")
@@ -16,11 +15,13 @@ background_header_img: ../assets/images/pattern_bg.jpg
     * Jämför med vanlig CSS.
     * Vilka tekniker använde du?
     * Fördelar och nackdelar?  
+<!--more-->
+        > För denna uppgift anväde jag **Sass** som *preprocessor*. Med utgångspunkt i **Minima** temat för Jekyll gjorde jag lite ändringar för att få till önskat resultat och utseende på webbplatsen. Minima är uppdelad på ett antal `.scss` som kombineras ihop till ett *stylesheet* och tekniker som används är bl.a. *nesting*, *mixins* och *variabler*. 
 
-    > För denna uppgift anväde jag **Sass** som preprocessor. Med utgångspunkt i **Minima** temat för Jekyll gjorde jag lite ändringar för att få till önskat resultat och utseende på webbplatsen. **Minima** är uppdelad på ett antal ´.sass´ som kombineras ihop till ett "stylesheet" och tekniker som används är bl.a. "nesting", "mixins" och variabler.
+        > Att arbeta med variabler som deklarerars på ett ställe och sedan styr färger, storlekar osv. på hela siten är smidigt och gör det enklare att underhålla koden än när stilsättning görs med vanlig CSS. Dock är min uppfattning att man även i vanilla CSS numer har funktionalitet för variabler och att utveckligen för en smidigare arbetssätt är on-going. Nästling av klasser är också en språkegenskap som gör det enkelt att organisera och skriva koden utan att "samma kod:ish" måste upprepas flera gånger. 
 
-    <!--more-->
-    > 
+        > Dock kan det vara svårare att *debugga* koden eftersom `.scss` översätts till `.css` vid publisering, vilket innebär att radnummer för referenserna inte överensstämmer. Förutom detta krävs det av utvecklaren kunskap i en annan syntax (om det nu kan ses som en nackdel) samt att den genererade `.css`-filen kan bli väldigt stor. 
+    
 2. Vad tycker du om *static site generators* (SSG)?
     > "Investeringstiden" i början var högre än att komma igång med utveckling av en "vanlig" statisk webbplats, men när strukturen och förhållandet mellan delarna faller på plats gillar jag enkelheten med mallar och markdown.
     
@@ -44,4 +45,4 @@ background_header_img: ../assets/images/pattern_bg.jpg
 
 6. Vad är *Open Graph* och hur använder du detta?
     > Open Graph är meta-taggar som definerar informationen som ska visas när webbsidan delas på exempelvis sociala medier. Med hjälp av Open Graph defineras eventuellt den bild, titel, beskrivning etc. som ska visas på tredjepartswebbplatsen. 
-    > Jag har på denna webbplats användt Open Graph för att definera vilken bild, titel, beskrivning och typ som ska visas när blogginlägg, startsida och om-mig-sida delas.
+    > Jag har på denna webbplats använt Open Graph för att definera vilken bild, titel, beskrivning och typ som ska visas när *blogginlägg*, *startsida* och *om-mig-sida* delas.

@@ -3,14 +3,10 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: gd222dn
+title: Hem
 og_description: En webbplats skapad i kursen i klientbaserad webbprogrammering (1dv022) på LnU.
 og_image: /assets/images/georgios_bil.jpg
 og_type: website
-article_header:
-  type: cover
-  image:
-    src: /assets/images/georgios_bil.jpg
 ---
 
 # Välkommen!
@@ -26,7 +22,8 @@ Denna webbplats är skapad i kursen Klientbaserad webbprogrammering, _1dv022_, p
 | 1me321    | Webbteknik 1                      |    7,5| HT19    | [1me321](http://medieteknik.lnu.se/1me321/index.htm)                          |
 | 1dv506        | Problemlösning och programmering  |    7,5| HT19    | [1dv506](https://mymoodle.lnu.se/course/view.php?id=43240)                    |
 
-## Status
+
+## Checklista
 
 - [x] 1dv021
 - [ ] 1dv022

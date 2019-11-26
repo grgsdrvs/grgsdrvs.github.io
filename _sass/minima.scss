@@ -23,7 +23,8 @@ $text-color: #000 !default;
 $background-color: #E0D3B9 !default;
 $background-body-img: url(../assets/images/pattern_bg.jpg);
 $brand-color: #2a7ae2 !default;
-$wrapper-color: #f2f2f2 !default;
+$wrapper-color: #f8f7f2 !default;
+$box-shadows: #4b4b4b3d !default;
 
 $grey-color: #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
@@ -34,7 +35,8 @@ $menu-text-color: #000;
 $table-text-align: left !default;
 
 // Width of the content area
-$content-width: 800px !default;
+$content-width: 900px !default;
+$wrapp-width: 1200px !default;
 
 $on-palm: 600px !default;
 $on-laptop: 800px !default;

@@ -2,11 +2,12 @@
 * Body wrapper
 */
 .body-wrapp {
-  width: $content-width;
+  width: $wrapp-width;
   margin: 0 auto;
-  flex: 1;
+
   background-color: $wrapper-color;
-  box-shadow: 1px 1px $grey-color-light;
+  box-shadow: 4px 4px 2px $box-shadows;
+
 }
 
 /**
@@ -15,9 +16,9 @@
 .site-header {
 
   border-bottom: 1px solid $grey-color-light;
-  min-height: $spacing-unit * 5.0;
+  min-height: $spacing-unit * 1.0;
   background-color: $header-color;
-
+  padding: 10px;
   // Positioning context for the mobile navigation icon
   position: relative;
 }
@@ -28,6 +29,7 @@
   line-height: $base-line-height * $base-font-size * 2.25;
   letter-spacing: -1px;
   margin-bottom: 0;
+
   float: left;
 
   &,
@@ -130,8 +132,9 @@
  */
 .site-footer {
   border-top: 1px solid $grey-color-light;
-  border-bottom: 1px solid $grey-color-light;
+  background-color: $header-color;
   padding: $spacing-unit 0;
+
 }
 
 .footer-heading {
