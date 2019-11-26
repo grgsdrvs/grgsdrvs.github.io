@@ -5,7 +5,7 @@
 layout: home
 title: Hem
 description: En webbplats skapad i kursen i klientbaserad webbprogrammering (1dv022) på LnU.
-og_image: georgios_bil.jpg
+og_image: logotyp_blue.png.jpg
 og_type: website
 ---
 
