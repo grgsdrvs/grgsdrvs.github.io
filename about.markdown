@@ -2,7 +2,7 @@
 layout: page
 title: Om mig
 permalink: /about/
-description: En webbplats skapad i kursen i klientbaserad webbprogrammering (1dv022) på LnU.
+description: Detta är en sida om mig som skapat denna webbplats i klientbaserad webbprogrammering (1dv022) på LnU.
 og_image: georgios_bil.jpg
 og_type: website
 ---
