@@ -44,5 +44,5 @@ og_type: article
     > Detta kommentarsfält kan nyttjas av användaren och med administratörsrättigheter finns det möjlighet att få sammanställd statistik över all aktivitet gällande kommentering på webbplatsen. 
 
 6. Vad är *Open Graph* och hur använder du detta?
-    > Open Graph är meta-taggar som definerar informationen som ska visas när webbsidan delas på exempelvis sociala medier. Med hjälp av Open Graph defineras eventuellt den bild, titel, beskrivning etc. som ska visas på tredjepartswebbplatsen. 
+    > Open Graph är meta-taggar som definerar informationen som ska visas när webbsidan delas på exempelvis sociala medier. Med hjälp av Open Graph defineras eventuellt den bild, titel, beskrivning etc. som ska visas på tredjepartswebbplatsen. Protokollet utvecklades av Facebook och introducerades 2010. 
     > Jag har på denna webbplats använt Open Graph för att definera vilken bild, titel, beskrivning och typ som ska visas när *blogginlägg*, *startsida* och *om-mig-sida* delas.
