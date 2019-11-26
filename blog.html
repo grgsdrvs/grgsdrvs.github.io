@@ -1,17 +1,17 @@
 ---
 layout: default
 title: Blogg
-og_description: Blogginlägg skapade i kursen 1dv022
-og_image: /assets/images/georgios_bil.jpg
+description: Blogginlägg skapade i kursen 1dv022
+og_image: georgios_bil.jpg
 og_type: article
 ---
 <h1>Senaste inläggen</h1>
 
 <ul class="blog">
   {% for post in site.posts %}
-    <li>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      <p>{{ post.excerpt }}</p>
-    </li>
+  <li>
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <p>{{ post.excerpt }}</p>
+  </li>
   {% endfor %}
 </ul>
